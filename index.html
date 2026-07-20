@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beat Slicer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <!-- Library baru untuk ZIP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+  <h1>MAKER SAMPLING</h1>
+  <input type="file" id="audioInput" accept="audio/*">
+  <button id="detectBeats">Detect Beats</button>
+  <button id="exportAll">Export All Slices</button>
+  <div id="waveform"></div>
+  <div id="slicesList"></div>
+  <script src="script.js"></script>
+</body>
+</html>
