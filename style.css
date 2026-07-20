@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#uploadContainer {
+  margin: 20px;
+}
+
+#slicesList {
+  margin-top: 20px;
+}
+
+.slice {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  width: 400px;
+  margin: 10px auto;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+#exportAll {
+  margin-top: 20px;
+}
+
+#downloadButton {
+  font-size: 12px;
+}
+
+button.export, button.download {
+  font-size: 12px;
+  width: 70px;
+  height: 30px;
+}
